@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    background-color: turquoise;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    height: 50px
+}
+.menu1 ul{
+    display: flex;
+    list-style: none;
+}
+.menu1 a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+.menu2 ul{
+    display: flex;
+    list-style: none;
+}
+.menu2 a{
+    color: black;
+    margin: 0 10px;
+}
+.top{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    margin: ;
+}
+.title1 span{
+    color: red;
+}
+.image img{
+    width: 600px;
+    
+}
+.top h1{
+    text-align: right;
+    font-size: 40px
+
+}
+.top p{
+    text-align: right;
+    font-size: 20px;
+
+}
+.mid{
+    background-color: grey;
+}
+.mid ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.mid a{
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px;
+    background-color: turquoise;
+    border-radius: 5px;
+    
+}
+.bottom{
+    display: flex;
+    background-color: grey;
+}
+.video{
+    margin-top: 50px;
+}
+.title2{
+    margin-top: 200px;
+}
+.bottom h1{
+    text-align: left;
+    font-size: 40px;
+
+}
+.title2 h1{
+    color: brown;
+    font-size: 40px;
+}
+.title2 p{
+    font-size: 20px;
+}
+.title2 span{
+    color: red;
+}
+.footer{
+    background-color:turquoise;
+    text-align: center;
+}
+.footli ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.footli a{
+    color: green;
+    padding: 10px   ;
+}
