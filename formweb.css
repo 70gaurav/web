@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    background-color:bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+.logo img{
+    height: 80px;
+    width: 80px;
+}
+.top ul{
+    display: flex;
+    list-style: none;
+}
+.top a{
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+    color: black;
+}
+.topimg{
+    background: url(house1.jpg) fixed no-repeat center /cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.topimg h1{
+    color: blue;
+}
+.mid{
+    display: flex;
+    margin-top: 40px;
+}
+.paragraphs{
+    width: 50%;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.form{
+    text-align: center;
+    width: 50%;
+    font-size: 12px;
+}
+.paragraphs p{
+    font-size: 25px;
+    padding-bottom: 40px;
+    text-align: justify;
+}
+.form input{
+    height: 50px;
+    width: 500px;
+    padding-left: 7px;
+    margin: 15px 0;
+}
+.form h1{
+    font-size: 25px;
+}
+.form form{
+    position: sticky;
+    top: 0;
+    
+}
